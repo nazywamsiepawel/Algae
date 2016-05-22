@@ -23,7 +23,7 @@ public class DataStorage {
         }
     }
     
-    func zero(x:Double){
+    func zero(){
         for i in 0..<storage.count {
             storage[i] = 0.0
         }

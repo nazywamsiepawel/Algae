@@ -68,6 +68,17 @@ public class Matrix : DataStorage {
         return colVector
     }
     
+    public func setCol(index:Int, v:Vector) {
+        print("\(index) > \(self.columns)")
+//        assert(index > self.columns, file:"Column index out of bounds")
+//        assert(v.size != self.rows, file:"Vector size is not equal to a column size")
+//        
+        for row in 0..<self.rows {
+            let addr = row*self.columns + index
+            self.storage[addr] = v[row]
+        }
+    }
+    
     public func add(m:Matrix){
         let res = Algae.add(self, m)
         self.storage = res.storage
@@ -116,7 +127,11 @@ public class Matrix : DataStorage {
         return Matrix(rows: self.rows, cols: self.columns, storage: self.storage)
     }
     
-
-    
-
+    func normalizeColumns(){
+        for i in 0..<self.columns {
+            var col = self.getCol(i)
+            col = col / col.max()
+            self.setCol(i, v: col)
+        }
+    }
 }

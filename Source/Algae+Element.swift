@@ -20,5 +20,14 @@ extension Algae {
         return exp(-x)/pow((1+exp(-x)), 2)
        // return x*(1-x)
     }
+    
+    class func sigmoid(m:Matrix) -> Matrix {
+        let res = m.copy()
+        
+        for i in 0..<res.storage.count {
+            res.storage[i] = Algae.sigmoid(res.storage[i])
+        }
+        return res
+    }
 
 }

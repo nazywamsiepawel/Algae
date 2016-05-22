@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52234CE1C9F2B1C00B255E2 /* Algae.h in Headers */ = {isa = PBXBuildFile; fileRef = E52234CD1C9F2B1C00B255E2 /* Algae.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E52234D51C9F2B1C00B255E2 /* Algae.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52234CA1C9F2B1C00B255E2 /* Algae.framework */; };
+		E52234DA1C9F2B1C00B255E2 /* AlgaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52234D91C9F2B1C00B255E2 /* AlgaeTests.swift */; };
+		E52234E71C9F2BCF00B255E2 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = E52234E51C9F2BCF00B255E2 /* Shaders.metal */; };
+		E52234E81C9F2BCF00B255E2 /* MetalDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52234E61C9F2BCF00B255E2 /* MetalDevice.swift */; };
+		E52234EA1C9F2BF300B255E2 /* Algae.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52234E91C9F2BF300B255E2 /* Algae.swift */; };
+		E52234EE1C9F335A00B255E2 /* Shaders.metal in Resources */ = {isa = PBXBuildFile; fileRef = E52234E51C9F2BCF00B255E2 /* Shaders.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E52234D61C9F2B1C00B255E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52234C11C9F2B1C00B255E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52234C91C9F2B1C00B255E2;
+			remoteInfo = Algae;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E52234CA1C9F2B1C00B255E2 /* Algae.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Algae.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52234CD1C9F2B1C00B255E2 /* Algae.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algae.h; sourceTree = "<group>"; };
+		E52234CF1C9F2B1C00B255E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52234D41C9F2B1C00B255E2 /* AlgaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgaeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52234D91C9F2B1C00B255E2 /* AlgaeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgaeTests.swift; sourceTree = "<group>"; };
+		E52234DB1C9F2B1C00B255E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52234E51C9F2BCF00B255E2 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		E52234E61C9F2BCF00B255E2 /* MetalDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalDevice.swift; sourceTree = "<group>"; };
+		E52234E91C9F2BF300B255E2 /* Algae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algae.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52234C61C9F2B1C00B255E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52234D11C9F2B1C00B255E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52234D51C9F2B1C00B255E2 /* Algae.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E52234C01C9F2B1C00B255E2 = {
+			isa = PBXGroup;
+			children = (
+				E52234CC1C9F2B1C00B255E2 /* Algae */,
+				E52234D81C9F2B1C00B255E2 /* AlgaeTests */,
+				E52234CB1C9F2B1C00B255E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E52234CB1C9F2B1C00B255E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52234CA1C9F2B1C00B255E2 /* Algae.framework */,
+				E52234D41C9F2B1C00B255E2 /* AlgaeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E52234CC1C9F2B1C00B255E2 /* Algae */ = {
+			isa = PBXGroup;
+			children = (
+				E52234E41C9F2BC600B255E2 /* Source */,
+				E52234CD1C9F2B1C00B255E2 /* Algae.h */,
+				E52234CF1C9F2B1C00B255E2 /* Info.plist */,
+			);
+			path = Algae;
+			sourceTree = "<group>";
+		};
+		E52234D81C9F2B1C00B255E2 /* AlgaeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E52234D91C9F2B1C00B255E2 /* AlgaeTests.swift */,
+				E52234DB1C9F2B1C00B255E2 /* Info.plist */,
+			);
+			path = AlgaeTests;
+			sourceTree = "<group>";
+		};
+		E52234E41C9F2BC600B255E2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E52234E51C9F2BCF00B255E2 /* Shaders.metal */,
+				E52234E61C9F2BCF00B255E2 /* MetalDevice.swift */,
+				E52234E91C9F2BF300B255E2 /* Algae.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E52234C71C9F2B1C00B255E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52234CE1C9F2B1C00B255E2 /* Algae.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E52234C91C9F2B1C00B255E2 /* Algae */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52234DE1C9F2B1C00B255E2 /* Build configuration list for PBXNativeTarget "Algae" */;
+			buildPhases = (
+				E52234C51C9F2B1C00B255E2 /* Sources */,
+				E52234C61C9F2B1C00B255E2 /* Frameworks */,
+				E52234C71C9F2B1C00B255E2 /* Headers */,
+				E52234C81C9F2B1C00B255E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algae;
+			productName = Algae;
+			productReference = E52234CA1C9F2B1C00B255E2 /* Algae.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E52234D31C9F2B1C00B255E2 /* AlgaeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52234E11C9F2B1C00B255E2 /* Build configuration list for PBXNativeTarget "AlgaeTests" */;
+			buildPhases = (
+				E52234D01C9F2B1C00B255E2 /* Sources */,
+				E52234D11C9F2B1C00B255E2 /* Frameworks */,
+				E52234D21C9F2B1C00B255E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52234D71C9F2B1C00B255E2 /* PBXTargetDependency */,
+			);
+			name = AlgaeTests;
+			productName = AlgaeTests;
+			productReference = E52234D41C9F2B1C00B255E2 /* AlgaeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52234C11C9F2B1C00B255E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pawel Borkowski";
+				TargetAttributes = {
+					E52234C91C9F2B1C00B255E2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E52234D31C9F2B1C00B255E2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = E52234C41C9F2B1C00B255E2 /* Build configuration list for PBXProject "Algae" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E52234C01C9F2B1C00B255E2;
+			productRefGroup = E52234CB1C9F2B1C00B255E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E52234C91C9F2B1C00B255E2 /* Algae */,
+				E52234D31C9F2B1C00B255E2 /* AlgaeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E52234C81C9F2B1C00B255E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52234EE1C9F335A00B255E2 /* Shaders.metal in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52234D21C9F2B1C00B255E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52234C51C9F2B1C00B255E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52234E71C9F2BCF00B255E2 /* Shaders.metal in Sources */,
+				E52234EA1C9F2BF300B255E2 /* Algae.swift in Sources */,
+				E52234E81C9F2BCF00B255E2 /* MetalDevice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52234D01C9F2B1C00B255E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52234DA1C9F2B1C00B255E2 /* AlgaeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E52234D71C9F2B1C00B255E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52234C91C9F2B1C00B255E2 /* Algae */;
+			targetProxy = E52234D61C9F2B1C00B255E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E52234DC1C9F2B1C00B255E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E52234DD1C9F2B1C00B255E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E52234DF1C9F2B1C00B255E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Algae/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pawelek.Algae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E52234E01C9F2B1C00B255E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Algae/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pawelek.Algae;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E52234E21C9F2B1C00B255E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AlgaeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pawelek.AlgaeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E52234E31C9F2B1C00B255E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AlgaeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pawelek.AlgaeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52234C41C9F2B1C00B255E2 /* Build configuration list for PBXProject "Algae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52234DC1C9F2B1C00B255E2 /* Debug */,
+				E52234DD1C9F2B1C00B255E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52234DE1C9F2B1C00B255E2 /* Build configuration list for PBXNativeTarget "Algae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52234DF1C9F2B1C00B255E2 /* Debug */,
+				E52234E01C9F2B1C00B255E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E52234E11C9F2B1C00B255E2 /* Build configuration list for PBXNativeTarget "AlgaeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52234E21C9F2B1C00B255E2 /* Debug */,
+				E52234E31C9F2B1C00B255E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E52234C11C9F2B1C00B255E2 /* Project object */;
+}

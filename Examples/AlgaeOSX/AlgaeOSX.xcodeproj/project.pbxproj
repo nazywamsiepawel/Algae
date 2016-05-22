@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52234FE1C9F3EA700B255E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52234FD1C9F3EA700B255E2 /* AppDelegate.swift */; };
+		E52235001C9F3EA700B255E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52234FF1C9F3EA700B255E2 /* ViewController.swift */; };
+		E52235021C9F3EA700B255E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52235011C9F3EA700B255E2 /* Assets.xcassets */; };
+		E52235051C9F3EA800B255E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E52235031C9F3EA800B255E2 /* Main.storyboard */; };
+		E52235101C9F3EA800B255E2 /* AlgaeOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522350F1C9F3EA800B255E2 /* AlgaeOSXTests.swift */; };
+		E522351B1C9F3EA800B255E2 /* AlgaeOSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522351A1C9F3EA800B255E2 /* AlgaeOSXUITests.swift */; };
+		E52235431C9F3FBD00B255E2 /* Algae.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52235391C9F3FBD00B255E2 /* Algae.swift */; };
+		E52235441C9F3FBD00B255E2 /* Algae+BLAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522353A1C9F3FBD00B255E2 /* Algae+BLAS.swift */; };
+		E52235451C9F3FBD00B255E2 /* Algae+Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522353B1C9F3FBD00B255E2 /* Algae+Element.swift */; };
+		E52235461C9F3FBD00B255E2 /* Algae+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522353C1C9F3FBD00B255E2 /* Algae+Operators.swift */; };
+		E52235471C9F3FBD00B255E2 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522353D1C9F3FBD00B255E2 /* DataStorage.swift */; };
+		E52235481C9F3FBD00B255E2 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522353E1C9F3FBD00B255E2 /* Matrix.swift */; };
+		E52235491C9F3FBD00B255E2 /* MetalDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E522353F1C9F3FBD00B255E2 /* MetalDevice.swift */; };
+		E522354A1C9F3FBD00B255E2 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52235401C9F3FBD00B255E2 /* Misc.swift */; };
+		E522354B1C9F3FBD00B255E2 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = E52235411C9F3FBD00B255E2 /* Shaders.metal */; };
+		E522354C1C9F3FBD00B255E2 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52235421C9F3FBD00B255E2 /* Vector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E522350C1C9F3EA800B255E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52234F21C9F3EA700B255E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52234F91C9F3EA700B255E2;
+			remoteInfo = AlgaeOSX;
+		};
+		E52235171C9F3EA800B255E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E52234F21C9F3EA700B255E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E52234F91C9F3EA700B255E2;
+			remoteInfo = AlgaeOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E52234FA1C9F3EA700B255E2 /* AlgaeOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgaeOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52234FD1C9F3EA700B255E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E52234FF1C9F3EA700B255E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E52235011C9F3EA700B255E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E52235041C9F3EA800B255E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E52235061C9F3EA800B255E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E522350B1C9F3EA800B255E2 /* AlgaeOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgaeOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E522350F1C9F3EA800B255E2 /* AlgaeOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgaeOSXTests.swift; sourceTree = "<group>"; };
+		E52235111C9F3EA800B255E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52235161C9F3EA800B255E2 /* AlgaeOSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgaeOSXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E522351A1C9F3EA800B255E2 /* AlgaeOSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgaeOSXUITests.swift; sourceTree = "<group>"; };
+		E522351C1C9F3EA800B255E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52235391C9F3FBD00B255E2 /* Algae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Algae.swift; path = ../../Source/Algae.swift; sourceTree = "<group>"; };
+		E522353A1C9F3FBD00B255E2 /* Algae+BLAS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+BLAS.swift"; path = "../../Source/Algae+BLAS.swift"; sourceTree = "<group>"; };
+		E522353B1C9F3FBD00B255E2 /* Algae+Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+Element.swift"; path = "../../Source/Algae+Element.swift"; sourceTree = "<group>"; };
+		E522353C1C9F3FBD00B255E2 /* Algae+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+Operators.swift"; path = "../../Source/Algae+Operators.swift"; sourceTree = "<group>"; };
+		E522353D1C9F3FBD00B255E2 /* DataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataStorage.swift; path = ../../Source/DataStorage.swift; sourceTree = "<group>"; };
+		E522353E1C9F3FBD00B255E2 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = ../../Source/Matrix.swift; sourceTree = "<group>"; };
+		E522353F1C9F3FBD00B255E2 /* MetalDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetalDevice.swift; path = ../../Source/MetalDevice.swift; sourceTree = "<group>"; };
+		E52235401C9F3FBD00B255E2 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = ../../Source/Misc.swift; sourceTree = "<group>"; };
+		E52235411C9F3FBD00B255E2 /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = Shaders.metal; path = ../../Source/Shaders.metal; sourceTree = "<group>"; };
+		E52235421C9F3FBD00B255E2 /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vector.swift; path = ../../Source/Vector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E52234F71C9F3EA700B255E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52235081C9F3EA800B255E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52235131C9F3EA800B255E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E52234F11C9F3EA700B255E2 = {
+			isa = PBXGroup;
+			children = (
+				E52235281C9F3EE200B255E2 /* Source */,
+				E52234FC1C9F3EA700B255E2 /* AlgaeOSX */,
+				E522350E1C9F3EA800B255E2 /* AlgaeOSXTests */,
+				E52235191C9F3EA800B255E2 /* AlgaeOSXUITests */,
+				E52234FB1C9F3EA700B255E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E52234FB1C9F3EA700B255E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E52234FA1C9F3EA700B255E2 /* AlgaeOSX.app */,
+				E522350B1C9F3EA800B255E2 /* AlgaeOSXTests.xctest */,
+				E52235161C9F3EA800B255E2 /* AlgaeOSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E52234FC1C9F3EA700B255E2 /* AlgaeOSX */ = {
+			isa = PBXGroup;
+			children = (
+				E52234FD1C9F3EA700B255E2 /* AppDelegate.swift */,
+				E52234FF1C9F3EA700B255E2 /* ViewController.swift */,
+				E52235011C9F3EA700B255E2 /* Assets.xcassets */,
+				E52235031C9F3EA800B255E2 /* Main.storyboard */,
+				E52235061C9F3EA800B255E2 /* Info.plist */,
+			);
+			path = AlgaeOSX;
+			sourceTree = "<group>";
+		};
+		E522350E1C9F3EA800B255E2 /* AlgaeOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				E522350F1C9F3EA800B255E2 /* AlgaeOSXTests.swift */,
+				E52235111C9F3EA800B255E2 /* Info.plist */,
+			);
+			path = AlgaeOSXTests;
+			sourceTree = "<group>";
+		};
+		E52235191C9F3EA800B255E2 /* AlgaeOSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E522351A1C9F3EA800B255E2 /* AlgaeOSXUITests.swift */,
+				E522351C1C9F3EA800B255E2 /* Info.plist */,
+			);
+			path = AlgaeOSXUITests;
+			sourceTree = "<group>";
+		};
+		E52235281C9F3EE200B255E2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E52235391C9F3FBD00B255E2 /* Algae.swift */,
+				E522353A1C9F3FBD00B255E2 /* Algae+BLAS.swift */,
+				E522353B1C9F3FBD00B255E2 /* Algae+Element.swift */,
+				E522353C1C9F3FBD00B255E2 /* Algae+Operators.swift */,
+				E522353D1C9F3FBD00B255E2 /* DataStorage.swift */,
+				E522353E1C9F3FBD00B255E2 /* Matrix.swift */,
+				E522353F1C9F3FBD00B255E2 /* MetalDevice.swift */,
+				E52235401C9F3FBD00B255E2 /* Misc.swift */,
+				E52235411C9F3FBD00B255E2 /* Shaders.metal */,
+				E52235421C9F3FBD00B255E2 /* Vector.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E52234F91C9F3EA700B255E2 /* AlgaeOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E522351F1C9F3EA800B255E2 /* Build configuration list for PBXNativeTarget "AlgaeOSX" */;
+			buildPhases = (
+				E52234F61C9F3EA700B255E2 /* Sources */,
+				E52234F71C9F3EA700B255E2 /* Frameworks */,
+				E52234F81C9F3EA700B255E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgaeOSX;
+			productName = AlgaeOSX;
+			productReference = E52234FA1C9F3EA700B255E2 /* AlgaeOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E522350A1C9F3EA800B255E2 /* AlgaeOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52235221C9F3EA800B255E2 /* Build configuration list for PBXNativeTarget "AlgaeOSXTests" */;
+			buildPhases = (
+				E52235071C9F3EA800B255E2 /* Sources */,
+				E52235081C9F3EA800B255E2 /* Frameworks */,
+				E52235091C9F3EA800B255E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E522350D1C9F3EA800B255E2 /* PBXTargetDependency */,
+			);
+			name = AlgaeOSXTests;
+			productName = AlgaeOSXTests;
+			productReference = E522350B1C9F3EA800B255E2 /* AlgaeOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E52235151C9F3EA800B255E2 /* AlgaeOSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E52235251C9F3EA800B255E2 /* Build configuration list for PBXNativeTarget "AlgaeOSXUITests" */;
+			buildPhases = (
+				E52235121C9F3EA800B255E2 /* Sources */,
+				E52235131C9F3EA800B255E2 /* Frameworks */,
+				E52235141C9F3EA800B255E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E52235181C9F3EA800B255E2 /* PBXTargetDependency */,
+			);
+			name = AlgaeOSXUITests;
+			productName = AlgaeOSXUITests;
+			productReference = E52235161C9F3EA800B255E2 /* AlgaeOSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E52234F21C9F3EA700B255E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pawel Borkowski";
+				TargetAttributes = {
+					E52234F91C9F3EA700B255E2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E522350A1C9F3EA800B255E2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E52234F91C9F3EA700B255E2;
+					};
+					E52235151C9F3EA800B255E2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E52234F91C9F3EA700B255E2;
+					};
+				};
+			};
+			buildConfigurationList = E52234F51C9F3EA700B255E2 /* Build configuration list for PBXProject "AlgaeOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E52234F11C9F3EA700B255E2;
+			productRefGroup = E52234FB1C9F3EA700B255E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E52234F91C9F3EA700B255E2 /* AlgaeOSX */,
+				E522350A1C9F3EA800B255E2 /* AlgaeOSXTests */,
+				E52235151C9F3EA800B255E2 /* AlgaeOSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E52234F81C9F3EA700B255E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52235021C9F3EA700B255E2 /* Assets.xcassets in Resources */,
+				E52235051C9F3EA800B255E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52235091C9F3EA800B255E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52235141C9F3EA800B255E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E52234F61C9F3EA700B255E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52235461C9F3FBD00B255E2 /* Algae+Operators.swift in Sources */,
+				E52235001C9F3EA700B255E2 /* ViewController.swift in Sources */,
+				E52235491C9F3FBD00B255E2 /* MetalDevice.swift in Sources */,
+				E522354A1C9F3FBD00B255E2 /* Misc.swift in Sources */,
+				E52235431C9F3FBD00B255E2 /* Algae.swift in Sources */,
+				E52235441C9F3FBD00B255E2 /* Algae+BLAS.swift in Sources */,
+				E52235481C9F3FBD00B255E2 /* Matrix.swift in Sources */,
+				E52234FE1C9F3EA700B255E2 /* AppDelegate.swift in Sources */,
+				E522354B1C9F3FBD00B255E2 /* Shaders.metal in Sources */,
+				E52235471C9F3FBD00B255E2 /* DataStorage.swift in Sources */,
+				E522354C1C9F3FBD00B255E2 /* Vector.swift in Sources */,
+				E52235451C9F3FBD00B255E2 /* Algae+Element.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52235071C9F3EA800B255E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52235101C9F3EA800B255E2 /* AlgaeOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E52235121C9F3EA800B255E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E522351B1C9F3EA800B255E2 /* AlgaeOSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E522350D1C9F3EA800B255E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52234F91C9F3EA700B255E2 /* AlgaeOSX */;
+			targetProxy = E522350C1C9F3EA800B255E2 /* PBXContainerItemProxy */;
+		};
+		E52235181C9F3EA800B255E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E52234F91C9F3EA700B255E2 /* AlgaeOSX */;
+			targetProxy = E52235171C9F3EA800B255E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E52235031C9F3EA800B255E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E52235041C9F3EA800B255E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E522351D1C9F3EA800B255E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E522351E1C9F3EA800B255E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E52235201C9F3EA800B255E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AlgaeOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pawelek.AlgaeOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E52235211C9F3EA800B255E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AlgaeOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pawelek.AlgaeOSX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E52235231C9F3EA800B255E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AlgaeOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pawelek.AlgaeOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgaeOSX.app/Contents/MacOS/AlgaeOSX";
+			};
+			name = Debug;
+		};
+		E52235241C9F3EA800B255E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AlgaeOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pawelek.AlgaeOSXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlgaeOSX.app/Contents/MacOS/AlgaeOSX";
+			};
+			name = Release;
+		};
+		E52235261C9F3EA800B255E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AlgaeOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pawelek.AlgaeOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlgaeOSX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E52235271C9F3EA800B255E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AlgaeOSXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pawelek.AlgaeOSXUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AlgaeOSX;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E52234F51C9F3EA700B255E2 /* Build configuration list for PBXProject "AlgaeOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E522351D1C9F3EA800B255E2 /* Debug */,
+				E522351E1C9F3EA800B255E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E522351F1C9F3EA800B255E2 /* Build configuration list for PBXNativeTarget "AlgaeOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52235201C9F3EA800B255E2 /* Debug */,
+				E52235211C9F3EA800B255E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52235221C9F3EA800B255E2 /* Build configuration list for PBXNativeTarget "AlgaeOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52235231C9F3EA800B255E2 /* Debug */,
+				E52235241C9F3EA800B255E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E52235251C9F3EA800B255E2 /* Build configuration list for PBXNativeTarget "AlgaeOSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E52235261C9F3EA800B255E2 /* Debug */,
+				E52235271C9F3EA800B255E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E52234F21C9F3EA700B255E2 /* Project object */;
+}

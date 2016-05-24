@@ -79,7 +79,6 @@ extension Algae {
         var s = -x
         vDSP_vsaddD(v.storage, 1, &s, &add_scalar_result, 1, vDSP_Length(v.size))
         return Vector(data: add_scalar_result)
-
     }
     
     class func sub(m:Matrix, _ x:Double) -> Matrix{

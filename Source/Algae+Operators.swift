@@ -74,7 +74,11 @@ public func / (lhs: Vector, rhs: Double) -> Vector {
     return Algae.div(lhs, rhs)
 }
 
+infix operator ** { associativity left precedence 160 }
 
+public func ** (left: Double, right: Double) -> Double {
+    return pow(left, right)
+}
 
 
 

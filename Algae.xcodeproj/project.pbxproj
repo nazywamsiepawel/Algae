@@ -20,6 +20,8 @@
 		E5275EFD1CF4E98C0052AA22 /* MatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EFB1CF4E98C0052AA22 /* MatrixTests.swift */; };
 		E5275EFE1CF4E98C0052AA22 /* VectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EFC1CF4E98C0052AA22 /* VectorTests.swift */; };
 		E5275F001CF4E9930052AA22 /* AlgaeBLASTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EFF1CF4E9930052AA22 /* AlgaeBLASTests.swift */; };
+		E5275F051CF4EE4D0052AA22 /* AlgaeReduceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275F041CF4EE4D0052AA22 /* AlgaeReduceTest.swift */; };
+		E5275F071CF4EEAE0052AA22 /* Algae+Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275F061CF4EEAE0052AA22 /* Algae+Reduce.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E5275EFB1CF4E98C0052AA22 /* MatrixTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixTests.swift; sourceTree = "<group>"; };
 		E5275EFC1CF4E98C0052AA22 /* VectorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorTests.swift; sourceTree = "<group>"; };
 		E5275EFF1CF4E9930052AA22 /* AlgaeBLASTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgaeBLASTests.swift; sourceTree = "<group>"; };
+		E5275F041CF4EE4D0052AA22 /* AlgaeReduceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgaeReduceTest.swift; sourceTree = "<group>"; };
+		E5275F061CF4EEAE0052AA22 /* Algae+Reduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+Reduce.swift"; path = "Source/Algae+Reduce.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				E5275EFB1CF4E98C0052AA22 /* MatrixTests.swift */,
 				E5275EFC1CF4E98C0052AA22 /* VectorTests.swift */,
 				E52234DB1C9F2B1C00B255E2 /* Info.plist */,
+				E5275F041CF4EE4D0052AA22 /* AlgaeReduceTest.swift */,
 			);
 			path = AlgaeTests;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 				E5275EE21CF4E7F00052AA22 /* Algae+Element.swift */,
 				E5275EE31CF4E7F00052AA22 /* Algae+Operators.swift */,
 				E5275EE41CF4E7F00052AA22 /* DataStorage.swift */,
+				E5275F061CF4EEAE0052AA22 /* Algae+Reduce.swift */,
 				E5275EE51CF4E7F00052AA22 /* Matrix.swift */,
 				E5275EE61CF4E7F00052AA22 /* Misc.swift */,
 				E5275EE71CF4E7F00052AA22 /* Vector.swift */,
@@ -235,6 +241,7 @@
 				E5275EEA1CF4E7F00052AA22 /* Algae+Operators.swift in Sources */,
 				E5275EE81CF4E7F00052AA22 /* Algae+BLAS.swift in Sources */,
 				E5275EEE1CF4E7F00052AA22 /* Vector.swift in Sources */,
+				E5275F071CF4EEAE0052AA22 /* Algae+Reduce.swift in Sources */,
 				E5275EEC1CF4E7F00052AA22 /* Matrix.swift in Sources */,
 				E5275EEB1CF4E7F00052AA22 /* DataStorage.swift in Sources */,
 				E5275EED1CF4E7F00052AA22 /* Misc.swift in Sources */,
@@ -249,6 +256,7 @@
 			files = (
 				E5275EFE1CF4E98C0052AA22 /* VectorTests.swift in Sources */,
 				E5275F001CF4E9930052AA22 /* AlgaeBLASTests.swift in Sources */,
+				E5275F051CF4EE4D0052AA22 /* AlgaeReduceTest.swift in Sources */,
 				E5275EFD1CF4E98C0052AA22 /* MatrixTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,8 +9,17 @@
 /* Begin PBXBuildFile section */
 		E52234CE1C9F2B1C00B255E2 /* Algae.h in Headers */ = {isa = PBXBuildFile; fileRef = E52234CD1C9F2B1C00B255E2 /* Algae.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E52234D51C9F2B1C00B255E2 /* Algae.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52234CA1C9F2B1C00B255E2 /* Algae.framework */; };
-		E52234DA1C9F2B1C00B255E2 /* AlgaeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52234D91C9F2B1C00B255E2 /* AlgaeTests.swift */; };
 		E52234EA1C9F2BF300B255E2 /* Algae.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52234E91C9F2BF300B255E2 /* Algae.swift */; };
+		E5275EE81CF4E7F00052AA22 /* Algae+BLAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EE11CF4E7F00052AA22 /* Algae+BLAS.swift */; };
+		E5275EE91CF4E7F00052AA22 /* Algae+Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EE21CF4E7F00052AA22 /* Algae+Element.swift */; };
+		E5275EEA1CF4E7F00052AA22 /* Algae+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EE31CF4E7F00052AA22 /* Algae+Operators.swift */; };
+		E5275EEB1CF4E7F00052AA22 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EE41CF4E7F00052AA22 /* DataStorage.swift */; };
+		E5275EEC1CF4E7F00052AA22 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EE51CF4E7F00052AA22 /* Matrix.swift */; };
+		E5275EED1CF4E7F00052AA22 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EE61CF4E7F00052AA22 /* Misc.swift */; };
+		E5275EEE1CF4E7F00052AA22 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EE71CF4E7F00052AA22 /* Vector.swift */; };
+		E5275EFD1CF4E98C0052AA22 /* MatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EFB1CF4E98C0052AA22 /* MatrixTests.swift */; };
+		E5275EFE1CF4E98C0052AA22 /* VectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EFC1CF4E98C0052AA22 /* VectorTests.swift */; };
+		E5275F001CF4E9930052AA22 /* AlgaeBLASTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275EFF1CF4E9930052AA22 /* AlgaeBLASTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,9 +37,18 @@
 		E52234CD1C9F2B1C00B255E2 /* Algae.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Algae.h; sourceTree = "<group>"; };
 		E52234CF1C9F2B1C00B255E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E52234D41C9F2B1C00B255E2 /* AlgaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgaeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E52234D91C9F2B1C00B255E2 /* AlgaeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgaeTests.swift; sourceTree = "<group>"; };
 		E52234DB1C9F2B1C00B255E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E52234E91C9F2BF300B255E2 /* Algae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algae.swift; sourceTree = "<group>"; };
+		E5275EE11CF4E7F00052AA22 /* Algae+BLAS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+BLAS.swift"; path = "Source/Algae+BLAS.swift"; sourceTree = SOURCE_ROOT; };
+		E5275EE21CF4E7F00052AA22 /* Algae+Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+Element.swift"; path = "Source/Algae+Element.swift"; sourceTree = SOURCE_ROOT; };
+		E5275EE31CF4E7F00052AA22 /* Algae+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+Operators.swift"; path = "Source/Algae+Operators.swift"; sourceTree = SOURCE_ROOT; };
+		E5275EE41CF4E7F00052AA22 /* DataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataStorage.swift; path = Source/DataStorage.swift; sourceTree = SOURCE_ROOT; };
+		E5275EE51CF4E7F00052AA22 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Source/Matrix.swift; sourceTree = SOURCE_ROOT; };
+		E5275EE61CF4E7F00052AA22 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Source/Misc.swift; sourceTree = SOURCE_ROOT; };
+		E5275EE71CF4E7F00052AA22 /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vector.swift; path = Source/Vector.swift; sourceTree = SOURCE_ROOT; };
+		E5275EFB1CF4E98C0052AA22 /* MatrixTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatrixTests.swift; sourceTree = "<group>"; };
+		E5275EFC1CF4E98C0052AA22 /* VectorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorTests.swift; sourceTree = "<group>"; };
+		E5275EFF1CF4E9930052AA22 /* AlgaeBLASTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgaeBLASTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +101,9 @@
 		E52234D81C9F2B1C00B255E2 /* AlgaeTests */ = {
 			isa = PBXGroup;
 			children = (
-				E52234D91C9F2B1C00B255E2 /* AlgaeTests.swift */,
+				E5275EFF1CF4E9930052AA22 /* AlgaeBLASTests.swift */,
+				E5275EFB1CF4E98C0052AA22 /* MatrixTests.swift */,
+				E5275EFC1CF4E98C0052AA22 /* VectorTests.swift */,
 				E52234DB1C9F2B1C00B255E2 /* Info.plist */,
 			);
 			path = AlgaeTests;
@@ -92,6 +112,13 @@
 		E52234E41C9F2BC600B255E2 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				E5275EE11CF4E7F00052AA22 /* Algae+BLAS.swift */,
+				E5275EE21CF4E7F00052AA22 /* Algae+Element.swift */,
+				E5275EE31CF4E7F00052AA22 /* Algae+Operators.swift */,
+				E5275EE41CF4E7F00052AA22 /* DataStorage.swift */,
+				E5275EE51CF4E7F00052AA22 /* Matrix.swift */,
+				E5275EE61CF4E7F00052AA22 /* Misc.swift */,
+				E5275EE71CF4E7F00052AA22 /* Vector.swift */,
 				E52234E91C9F2BF300B255E2 /* Algae.swift */,
 			);
 			name = Source;
@@ -153,7 +180,7 @@
 		E52234C11C9F2B1C00B255E2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Pawel Borkowski";
 				TargetAttributes = {
@@ -205,6 +232,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5275EEA1CF4E7F00052AA22 /* Algae+Operators.swift in Sources */,
+				E5275EE81CF4E7F00052AA22 /* Algae+BLAS.swift in Sources */,
+				E5275EEE1CF4E7F00052AA22 /* Vector.swift in Sources */,
+				E5275EEC1CF4E7F00052AA22 /* Matrix.swift in Sources */,
+				E5275EEB1CF4E7F00052AA22 /* DataStorage.swift in Sources */,
+				E5275EED1CF4E7F00052AA22 /* Misc.swift in Sources */,
+				E5275EE91CF4E7F00052AA22 /* Algae+Element.swift in Sources */,
 				E52234EA1C9F2BF300B255E2 /* Algae.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52234DA1C9F2B1C00B255E2 /* AlgaeTests.swift in Sources */,
+				E5275EFE1CF4E98C0052AA22 /* VectorTests.swift in Sources */,
+				E5275F001CF4E9930052AA22 /* AlgaeBLASTests.swift in Sources */,
+				E5275EFD1CF4E98C0052AA22 /* MatrixTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,17 +392,20 @@
 		E52234E21C9F2B1C00B255E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AlgaeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pawelek.AlgaeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E52234E31C9F2B1C00B255E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = AlgaeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";

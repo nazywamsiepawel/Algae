@@ -183,7 +183,5 @@ extension Algae {
         vDSP_vnegD(m.storage, 1, &neg_result, 1, UInt(m.size()))
         return Matrix(rows: m.rows, cols: m.columns, storage: neg_result)
     }
-    
-    
 }
 

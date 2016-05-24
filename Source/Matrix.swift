@@ -134,4 +134,12 @@ public class Matrix : DataStorage {
             self.setCol(i, v: col)
         }
     }
+    
+    
+    func normalize(toValue val:Double){
+        for i in 0..<self.storage.count {
+            self.storage[i] = self.storage[i]/val
+        }
+    }
+        
 }

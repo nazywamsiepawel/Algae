@@ -4,14 +4,19 @@ Algae is a fast matrix processing library written in Swift. Uses Accelerate and 
 
 ##features
 
-- [x] Convenience operators and constructors.
 - [x] Constructors
+- [x] Extractors
 - [x] Element-wise operations (e.g. trig functions, abs)
+- [x] Column or row-wise operators
+- [x] Matrix-wide operations.
 - [x] Basic Linear Algebra Subprograms (e.g. scalar multiplication, matrix multiplication, dot products)
 - [ ] GPU support using Metal
 
-### Vector
+##examples
+- [x] Multilayer perceptron.
+- [x] Speed-test
 
+### Vector
 #### Constructing a Vector
 
 ```swift

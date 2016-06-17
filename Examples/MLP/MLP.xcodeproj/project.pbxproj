@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5275F091CF4EF830052AA22 /* Algae+Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5275F081CF4EF830052AA22 /* Algae+Reduce.swift */; };
 		E578B6691CF199E400BF2A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578B6681CF199E400BF2A4E /* AppDelegate.swift */; };
 		E578B66B1CF199E400BF2A4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578B66A1CF199E400BF2A4E /* ViewController.swift */; };
 		E578B66E1CF199E400BF2A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E578B66C1CF199E400BF2A4E /* Main.storyboard */; };
@@ -16,6 +17,14 @@
 		E578B6811CF199E400BF2A4E /* MLPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578B6801CF199E400BF2A4E /* MLPTests.swift */; };
 		E578B68C1CF199E400BF2A4E /* MLPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578B68B1CF199E400BF2A4E /* MLPUITests.swift */; };
 		E578B69A1CF199FE00BF2A4E /* MLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578B6991CF199FE00BF2A4E /* MLP.swift */; };
+		E5D5EB601CF1A00200DF08B9 /* Algae.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5EB581CF1A00200DF08B9 /* Algae.swift */; };
+		E5D5EB611CF1A00200DF08B9 /* Algae+BLAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5EB591CF1A00200DF08B9 /* Algae+BLAS.swift */; };
+		E5D5EB621CF1A00200DF08B9 /* Algae+Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5EB5A1CF1A00200DF08B9 /* Algae+Element.swift */; };
+		E5D5EB631CF1A00200DF08B9 /* Algae+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5EB5B1CF1A00200DF08B9 /* Algae+Operators.swift */; };
+		E5D5EB641CF1A00200DF08B9 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5EB5C1CF1A00200DF08B9 /* DataStorage.swift */; };
+		E5D5EB651CF1A00200DF08B9 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5EB5D1CF1A00200DF08B9 /* Matrix.swift */; };
+		E5D5EB661CF1A00200DF08B9 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5EB5E1CF1A00200DF08B9 /* Misc.swift */; };
+		E5D5EB671CF1A00200DF08B9 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D5EB5F1CF1A00200DF08B9 /* Vector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5275F081CF4EF830052AA22 /* Algae+Reduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+Reduce.swift"; path = "../../Source/Algae+Reduce.swift"; sourceTree = "<group>"; };
 		E578B6651CF199E300BF2A4E /* MLP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E578B6681CF199E400BF2A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E578B66A1CF199E400BF2A4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +61,14 @@
 		E578B68B1CF199E400BF2A4E /* MLPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLPUITests.swift; sourceTree = "<group>"; };
 		E578B68D1CF199E400BF2A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E578B6991CF199FE00BF2A4E /* MLP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLP.swift; sourceTree = "<group>"; };
+		E5D5EB581CF1A00200DF08B9 /* Algae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Algae.swift; path = ../../Source/Algae.swift; sourceTree = "<group>"; };
+		E5D5EB591CF1A00200DF08B9 /* Algae+BLAS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+BLAS.swift"; path = "../../Source/Algae+BLAS.swift"; sourceTree = "<group>"; };
+		E5D5EB5A1CF1A00200DF08B9 /* Algae+Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+Element.swift"; path = "../../Source/Algae+Element.swift"; sourceTree = "<group>"; };
+		E5D5EB5B1CF1A00200DF08B9 /* Algae+Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Algae+Operators.swift"; path = "../../Source/Algae+Operators.swift"; sourceTree = "<group>"; };
+		E5D5EB5C1CF1A00200DF08B9 /* DataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataStorage.swift; path = ../../Source/DataStorage.swift; sourceTree = "<group>"; };
+		E5D5EB5D1CF1A00200DF08B9 /* Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = ../../Source/Matrix.swift; sourceTree = "<group>"; };
+		E5D5EB5E1CF1A00200DF08B9 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = ../../Source/Misc.swift; sourceTree = "<group>"; };
+		E5D5EB5F1CF1A00200DF08B9 /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vector.swift; path = ../../Source/Vector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,7 @@
 		E578B65C1CF199E300BF2A4E = {
 			isa = PBXGroup;
 			children = (
+				E5D5EB571CF19FF200DF08B9 /* Algae */,
 				E578B6671CF199E400BF2A4E /* MLP */,
 				E578B67F1CF199E400BF2A4E /* MLPTests */,
 				E578B68A1CF199E400BF2A4E /* MLPUITests */,
@@ -129,6 +148,22 @@
 				E578B68D1CF199E400BF2A4E /* Info.plist */,
 			);
 			path = MLPUITests;
+			sourceTree = "<group>";
+		};
+		E5D5EB571CF19FF200DF08B9 /* Algae */ = {
+			isa = PBXGroup;
+			children = (
+				E5D5EB581CF1A00200DF08B9 /* Algae.swift */,
+				E5D5EB591CF1A00200DF08B9 /* Algae+BLAS.swift */,
+				E5D5EB5A1CF1A00200DF08B9 /* Algae+Element.swift */,
+				E5D5EB5B1CF1A00200DF08B9 /* Algae+Operators.swift */,
+				E5275F081CF4EF830052AA22 /* Algae+Reduce.swift */,
+				E5D5EB5C1CF1A00200DF08B9 /* DataStorage.swift */,
+				E5D5EB5D1CF1A00200DF08B9 /* Matrix.swift */,
+				E5D5EB5E1CF1A00200DF08B9 /* Misc.swift */,
+				E5D5EB5F1CF1A00200DF08B9 /* Vector.swift */,
+			);
+			name = Algae;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +298,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E578B66B1CF199E400BF2A4E /* ViewController.swift in Sources */,
+				E5D5EB601CF1A00200DF08B9 /* Algae.swift in Sources */,
 				E578B69A1CF199FE00BF2A4E /* MLP.swift in Sources */,
+				E5D5EB641CF1A00200DF08B9 /* DataStorage.swift in Sources */,
 				E578B6711CF199E400BF2A4E /* MLP.xcdatamodeld in Sources */,
+				E5D5EB661CF1A00200DF08B9 /* Misc.swift in Sources */,
+				E5275F091CF4EF830052AA22 /* Algae+Reduce.swift in Sources */,
+				E5D5EB631CF1A00200DF08B9 /* Algae+Operators.swift in Sources */,
+				E5D5EB651CF1A00200DF08B9 /* Matrix.swift in Sources */,
+				E5D5EB611CF1A00200DF08B9 /* Algae+BLAS.swift in Sources */,
+				E5D5EB621CF1A00200DF08B9 /* Algae+Element.swift in Sources */,
+				E5D5EB671CF1A00200DF08B9 /* Vector.swift in Sources */,
 				E578B6691CF199E400BF2A4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +536,7 @@
 				E578B6921CF199E400BF2A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E578B6931CF199E400BF2A4E /* Build configuration list for PBXNativeTarget "MLPTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +545,7 @@
 				E578B6951CF199E400BF2A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E578B6961CF199E400BF2A4E /* Build configuration list for PBXNativeTarget "MLPUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +554,7 @@
 				E578B6981CF199E400BF2A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

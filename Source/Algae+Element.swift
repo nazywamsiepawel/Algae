@@ -29,5 +29,14 @@ extension Algae {
         }
         return res
     }
+    
+    class func sigmoidPrime(m:Matrix) -> Matrix {
+        let res = m.copy()
+        
+        for i in 0..<res.storage.count {
+            res.storage[i] = Algae.sigmoidPrime(res.storage[i])
+        }
+        return res
+    }
 
 }

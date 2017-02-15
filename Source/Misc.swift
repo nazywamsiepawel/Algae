@@ -8,7 +8,7 @@
 
 import Foundation
 
-public func meanSquaredError(errors:[Double]) -> Double {
+public func meanSquaredError(_ errors:[Double]) -> Double {
     var sum:Double = 0.0
     
     for iError in 0..<errors.count {
@@ -19,11 +19,11 @@ public func meanSquaredError(errors:[Double]) -> Double {
     return Double(sum) / Double(errors.count)
 }
 
-public func tanh(x:Double) -> Double {
+public func tanh(_ x:Double) -> Double {
     return tanh(x)
 }
 
-public func tanhPrime(x:Double) -> Double {
+public func tanhPrime(_ x:Double) -> Double {
     return 1 - (x*x)
 }
 
@@ -32,7 +32,7 @@ public extension Double {
         return Double(arc4random()) / 0xFFFFFFFF
     }
 
-    public static func random(min min: Double, max: Double) -> Double {
+    public static func random(min: Double, max: Double) -> Double {
         return Double.random() * (max - min) + min
     }
 
@@ -45,7 +45,7 @@ public extension Double {
 //}
 
 
-infix operator ^^ { }
+infix operator ^^
 func ^^ (radix: Double, power: Int) -> Double {
     return Double(pow(Double(radix), Double(power)))
 }

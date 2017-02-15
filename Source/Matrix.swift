@@ -8,23 +8,23 @@
 
 import Foundation
 
-public class Matrix : DataStorage {
+open class Matrix : DataStorage {
 
     var columns:Int = 0
     var rows:Int = 0
     
 
-    public func size() -> Int {
+    open func size() -> Int {
         return storage.count
     }
     
-    public func shape() -> (rows:Int, columns:Int) {
+    open func shape() -> (rows:Int, columns:Int) {
         return (rows:rows, columns:columns)
     }
     
     init(rows:Int, cols:Int){
         super.init()
-        self.storage = [Double](count: rows*cols, repeatedValue: 0.0)
+        self.storage = [Double](repeating: 0.0, count: rows*cols)
         self.columns = cols
         self.rows = rows
     }
@@ -34,7 +34,7 @@ public class Matrix : DataStorage {
         self.storage = storage
     }
 
-    public subscript(row: Int, col: Int) -> Double {
+    open subscript(row: Int, col: Int) -> Double {
         get {
             let addr = row*rows + col
             return storage[addr]
@@ -45,7 +45,7 @@ public class Matrix : DataStorage {
         }
     }
     
-    public func getRow(index:Int) -> Vector {
+    open func getRow(_ index:Int) -> Vector {
         let rowVector = Vector(size: self.columns)
         
         for col in 0..<self.columns {
@@ -56,7 +56,7 @@ public class Matrix : DataStorage {
         return rowVector
     }
     
-    public func getCol(index:Int) -> Vector {
+    open func getCol(_ index:Int) -> Vector {
         let colVector = Vector(size:self.rows)
         
         for row in 0..<self.rows {
@@ -68,7 +68,7 @@ public class Matrix : DataStorage {
         return colVector
     }
     
-    public func setCol(index:Int, v:Vector) {
+    open func setCol(_ index:Int, v:Vector) {
         print("\(index) > \(self.columns)")
 //        assert(index > self.columns, file:"Column index out of bounds")
 //        assert(v.size != self.rows, file:"Vector size is not equal to a column size")
@@ -79,38 +79,38 @@ public class Matrix : DataStorage {
         }
     }
     
-    public func add(m:Matrix){
+    open func add(_ m:Matrix){
         let res = Algae.add(self, m)
         self.storage = res.storage
     }
     
-    public func sub(m:Matrix) {
+    open func sub(_ m:Matrix) {
         let res = Algae.sub(self, m)
         self.storage = res.storage
     }
     
-    public func addmm(m1:Matrix, _ m2:Matrix){
+    open func addmm(_ m1:Matrix, _ m2:Matrix){
         self.add(m1*m2)
     
     }
     
-    public func addr(v1:Vector, _ v2:Vector){
+    open func addr(_ v1:Vector, _ v2:Vector){
         self.add(Algae.ger(v1, v2))
     }
     
-    public func max() -> Double {
+    open func max() -> Double {
         return Algae.max(self)
     }
     
-    public func min() -> Double {
+    open func min() -> Double {
         return Algae.min(self)
     }
     
-    public func t() ->  Matrix {
+    open func t() ->  Matrix {
         return Algae.transpose(self)
     }
     
-    public func log(title:String=""){
+    open func log(_ title:String=""){
         print("")
         for iRow in 0..<self.rows {
             let row = self.getRow(iRow)
@@ -123,7 +123,7 @@ public class Matrix : DataStorage {
         print("\(title) : Matrix of size [\(self.rows) x \(self.columns)]")
     }
     
-    public func copy() -> Matrix {
+    open func copy() -> Matrix {
         return Matrix(rows: self.rows, cols: self.columns, storage: self.storage)
     }
     

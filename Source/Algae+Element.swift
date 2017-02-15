@@ -12,16 +12,16 @@ import Foundation
 
 extension Algae {
     
-    class func sigmoid(x:Double) -> Double {
+    class func sigmoid(_ x:Double) -> Double {
         return  Double(1) / (Double(1) + exp(-x))
     }
     
-    class func sigmoidPrime(x:Double) -> Double {
+    class func sigmoidPrime(_ x:Double) -> Double {
         return exp(-x)/pow((1+exp(-x)), 2)
        // return x*(1-x)
     }
     
-    class func sigmoid(m:Matrix) -> Matrix {
+    class func sigmoid(_ m:Matrix) -> Matrix {
         let res = m.copy()
         
         for i in 0..<res.storage.count {
@@ -30,7 +30,7 @@ extension Algae {
         return res
     }
     
-    class func sigmoidPrime(m:Matrix) -> Matrix {
+    class func sigmoidPrime(_ m:Matrix) -> Matrix {
         let res = m.copy()
         
         for i in 0..<res.storage.count {

@@ -8,16 +8,16 @@
 
 import Foundation
 
-public class DataStorage {
+open class DataStorage {
     internal var storage = [Double]()
     
-    func fillRandom(min:Double, max:Double){
+    func fillRandom(_ min:Double, max:Double){
         for i in 0..<storage.count {
             storage[i] = Double.random(min: -0.5, max: 0.5)
         }
     }
     
-    func fill(x:Double){
+    func fill(_ x:Double){
         for i in 0..<storage.count {
             storage[i] = x
         }

@@ -9,7 +9,7 @@
 import Accelerate
 
 extension Algae {
-    class func sum(v:Vector) -> Double {
+    class func sum(_ v:Vector) -> Double {
         var result:Double = 0.0
         vDSP_sveD(&v.storage, 1, &result, UInt(v.size))
         return result

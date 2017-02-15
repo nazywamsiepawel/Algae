@@ -8,11 +8,11 @@
 
 import Foundation
 
-public class Vector : DataStorage {
+open class Vector : DataStorage {
     
     init(size : Int) {
         super.init()
-        self.storage = [Double](count: size, repeatedValue: 0.0)
+        self.storage = [Double](repeating: 0.0, count: size)
     }
     
     convenience init(data:[Double]){
@@ -20,11 +20,11 @@ public class Vector : DataStorage {
         self.storage = data
     }
     
-    public var size: Int {
+    open var size: Int {
         return self.storage.count
     }
     
-    public subscript(index: Int) -> Double {
+    open subscript(index: Int) -> Double {
         get {
             return self.storage[index]
         }
@@ -33,42 +33,42 @@ public class Vector : DataStorage {
         }
     }
     
-    public func copy() -> Vector {
+    open func copy() -> Vector {
         return Vector(data: self.storage)
     }
     
-    public func add(v:Vector) {
+    open func add(_ v:Vector) {
         let res = Algae.add(self, v)
         self.storage = res.storage
     }
     
-    public func sub(v:Vector) {
+    open func sub(_ v:Vector) {
         let res = Algae.sub(self, v)
         self.storage = res.storage
     }
     
-    public func addmv(m:Matrix, _ v:Vector){
+    open func addmv(_ m:Matrix, _ v:Vector){
         self.add(m*v)
     }
     
-    public func max() -> Double {
+    open func max() -> Double {
         return Algae.max(self)
     }
     
-    public func min() -> Double {
+    open func min() -> Double {
         return Algae.min(self)
     }
     
    
-    public func row() -> Matrix {
+    open func row() -> Matrix {
         return Matrix(rows: 1, cols: self.size, storage:self.storage)
     }
     
     
-    public func col() -> Matrix {
+    open func col() -> Matrix {
         return Matrix(rows: self.size, cols: 1, storage:self.storage)
     }
-    public func log(title:String=""){
+    open func log(_ title:String=""){
         print("")
         
         for elem in self.storage {
